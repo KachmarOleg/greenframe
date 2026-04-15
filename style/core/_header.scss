@@ -47,7 +47,7 @@ header {
   &__logo {
     img {
       width: 40px;
-      @include rwd-min(1025) {width: 60px}
+      @include rwd-min(1025) {width: 125px}
     }
   }
 }
