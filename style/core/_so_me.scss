@@ -24,6 +24,6 @@
 
 .so_me {
   a {
-    @include hover {color: #fff}
+    @include hover {color: $cl}
   }
 }

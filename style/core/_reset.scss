@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: $tx;
-  background-color: #fff;
+  background-color: #13151B;
   @include rwd-max(1024) {
     &.is_overflow {overflow: hidden}
   }
@@ -96,7 +96,7 @@ input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="c
   -webkit-appearance: none;
   &:-webkit-autofill {
     -webkit-text-fill-color: $tx !important;
-    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-box-shadow: 0 0 0 30px $tx inset !important;
   }
 }
 
@@ -160,8 +160,8 @@ a[href], area[href], input:not([disabled]):not([type="hidden"]), select:not([dis
     font: 400 16px $ff;
     color: $tx;
     padding: 0 15px;
-    border: 1px solid $tx;
-    background-color: #fff;
+    border: 1px solid $border;
+    background-color: $bg;
     @include placeholder {color: $tx; opacity: 1}
 
     &:focus,

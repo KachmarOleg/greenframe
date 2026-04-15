@@ -26,9 +26,6 @@
 		     alt="<?php bloginfo(); ?>">
 		<?php echo ( is_front_page() ) ? '</figure>' : '</a>'; ?>
 
-		<a class="search_toggle i_search" data-fancybox data-src="#search_field" href="javascript:;"
-		   aria-label="Search"></a>
-
 		<a class="menu__toggle" href="javascript:;" aria-label="Menu toggle">
 			<span></span>
 			<span></span>

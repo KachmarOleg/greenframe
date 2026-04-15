@@ -72,7 +72,7 @@ div.wpcf7 {
     color: $form-error;
     padding: 0 15px;
     border-radius: 0;
-    background-color: #fff;
+    background-color: $bg;
     border: 1px solid $form-error;
     cursor: pointer;
   }
@@ -83,7 +83,7 @@ div.wpcf7 {
     left: 0;
     right: 0;
     font: 400 16px/1.4 $ff;
-    color: #fff;
+    color: $tx;
     padding: 12px;
     border-radius: 0;
     text-align: center;
@@ -96,8 +96,8 @@ div.wpcf7 {
       font: 400 16px $ff;
       color: $tx;
       padding: 0 15px;
-      border: 1px solid $tx;
-      background-color: #fff;
+      border: 1px solid $border;
+      background-color: $bg;
       @include placeholder {color: $tx; opacity: 1}
 
       &:focus,
@@ -140,7 +140,7 @@ div.wpcf7 {
           content: '';
           height: 24px;
           border-radius: 3px;
-          border: 1px solid $tx;
+          border: 1px solid $border;
         }
 
         &:after {
