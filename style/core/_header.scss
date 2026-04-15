@@ -51,8 +51,7 @@ header {
 
   &__logo {
     img {
-      width: 40px;
-      @include rwd-min(1025) {width: 125px}
+      width: 125px
     }
   }
 }
@@ -69,7 +68,7 @@ header {
       bottom: 0;
       overflow: auto;
       padding: 35px 24px 0;
-      background-color: $cl;
+      background-color: $bg;
       transform: translateX(101%);
       z-index: 2;
       &.is_open {transform: translateX(0)}

@@ -55,9 +55,14 @@ $headings: 4;
 }
 
 h1, .h1 {
-  font-size: 72px;
   line-height: 72px;
   letter-spacing: -1.8px;
+  @include rwd-min(768) {
+    font-size: 72px;
+  }
+  @include rwd-max(767) {
+    font-size: 64px;
+  }
 }
 
 h2, .h2 {
